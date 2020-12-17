@@ -6,6 +6,10 @@ Tabel dan dummy data dapat di create dari file `db-tables.php`
 
 ### 1 Mengirim gambar
 
+Berfungsi untuk menerima data image, lalu menyimpan image pada local dan mencatat operasi yang berhasil di database. Membutuhkan akun yang didaftarkan di tabel `users`.
+
+url: `sendFace.php`
+
 API menerima form-data:
 ```
 image: (base64)
@@ -56,6 +60,10 @@ Response 500
 ```
 
 ### 2 Mendapatkan Log Insert
+
+Berfungsi untuk mendapatkan log dari user.
+
+url: `getLogs.php`
 
 API menerima form-data:
 ```
